@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
+import Nav from './components/Nav.js';
 
 function App() {
   return (
- 
-    <div>
-      <h1>Lets do this Web Development Thing!</h1>
-    </div>
+    <>
+      <Nav/>
+    </>
   );
 }
 
